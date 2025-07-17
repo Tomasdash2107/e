@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #333;
+}
+
+.contenedor {
+  border: 2px solid black;
+  margin: 20px 0;
+  background-color: white;
+}
+
+.caja {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.caja1 { background-color: red; }
+.caja2 { background-color: blue; }
+.caja3 { background-color: green; }
+
+/* Ejemplo 1 */
+.flex-columna {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 300px;
+}
+
+.flex-columna .caja {
+  height: 100px;
+}
+
+/* Ejemplo 2 */
+.flex-reversa {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 300px;
+  height: 100px;
+}
+
+.flex-reversa .caja {
+  width: 100px;
+}
+
+/* Ejemplo 3 */
+.flex-space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+  height: 100px;
+}
+
+.flex-space .caja {
+  width: 100px;
+}
